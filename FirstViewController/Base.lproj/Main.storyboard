@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First ViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GZV-Wf-1n1">
-                                <rect key="frame" x="103.33333333333333" y="413" width="186.33333333333337" height="26.333333333333314"/>
+                                <rect key="frame" x="103.33333333333333" y="413" width="186.33333333333337" height="26"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -58,7 +58,7 @@
         <!--Second Screen-->
         <scene sceneID="mgt-Ax-Kb0">
             <objects>
-                <viewController id="dkv-ja-Toy" sceneMemberID="viewController">
+                <viewController id="dkv-ja-Toy" customClass="SecondViewController" customModule="FirstViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ouo-09-tkc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
